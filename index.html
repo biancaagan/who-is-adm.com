@@ -1,9 +1,85 @@
 <html>
         <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-        <style>       
-        </style>
+        <style>
+                *{
+                        box-sizing: border-box;
+                        }
+
+                body{
+                        background-color:  rgb(208, 224, 227);
+                        margin-top: 50px;
+                        margin-left: 25px;
+                        }
+                h1{
+                        font-family:  "Gill Sans", sans-serif;
+                        font-size: 100px;
+                        text-align: center;
+                        }
+                h2{
+                        font-family:  "Courier New", monospace;
+                        text-align: center;
+                        }
+                h3{
+                        font-family:  "Courier New", monospace;
+                        font-size: 45;
+                        text-align: center;
+                        }
+                h4{
+                        font-family:  "Courier New", monospace;
+                        font-size: 25px;
+                        text-align: center;
+                        }
+
+                #header{
+                        margin-bottom: 50px;
+                        }
+
+                #sub-title{
+                        text-align: left;
+                        font-family:  "Courier New", monospace;
+                        }
+                        .img-caption{
+                        text-align: left;
+                        font-size: 20px;
+                        margin-left: 50px;
+                        word-wrap: break-word;
+                        }
+                p{
+                        font-family:  "Courier New", monospace;
+                        text-align: center;
+                        }
+
+                #footer{
+                        margin-top: 50px;
+                        }
+
+                img{
+                        margin-left: 100px;
+                        transition:transform 0.4s ease;
+                        }
+
+                img:hover{
+                        -webkit-transform:scale(1.5);
+                        transform:scale(1.5);
+                        margin-left: 100px;
+                        }
+
+                .image-column{
+                        flex: 33.33%;
+                        padding: 5px;
+                        }
+
+                .image-row{
+                        display: flex;
+                        margin-top: 50px;
+                        }
+
+                div.img-caption{
+                        width: 400px;
+                        }
+
+                </style>
                 <title>This is ADM!</title>
         </head>
         <body>
@@ -24,7 +100,7 @@
 
                 <div class="image-row">
                         <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6403.jpg?w=667" style="heig>
+                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6403.jpg?w=667" style="height:400px">
 
                                 <div class="img-caption">
                                         <h4 class="img-caption"</h4>
@@ -32,7 +108,7 @@
                         </div>
 
                         <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6409.jpg?w=735" style="heig>
+                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6409.jpg?w=735" style="height:400px">
 
                                 <div class="img-caption">
                                         <h4 class="img-caption">
@@ -40,33 +116,7 @@
                         </div>
 
                         <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6411.jpg?w=743" style="heig>
-
-                                <div class="img-caption">
-                                        <h4 class="img-caption">
-                                </div>
-                        </div>
-                </div>
-
-                <div class="image-row">
-                        <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6420.jpg?w=717" style="heig>
-
-                                <div class="img-caption">
-                                        <h4 class="img-caption">
-                                </div>
-                        </div>
-
-                        <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6422.jpg?w=726" style="heig>
-
-                                <div class="img-caption">
-                                        <h4 class="img-caption">
-                                </div>
-                        </div>
-
-                        <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6424.jpg?w=732" style="heig>
+                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6411.jpg?w=743" style="height:400px">
 
                                 <div class="img-caption">
                                         <h4 class="img-caption">
@@ -76,7 +126,33 @@
 
                 <div class="image-row">
                         <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6383.jpg?w=725" style="heig>
+                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6420.jpg?w=717" style="height:400px">
+
+                                <div class="img-caption">
+                                        <h4 class="img-caption">
+                                </div>
+                        </div>
+
+                        <div class="image-column">
+                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6422.jpg?w=726" style="height:400px">
+
+                                <div class="img-caption">
+                                        <h4 class="img-caption">
+                                </div>
+                        </div>
+
+                        <div class="image-column">
+                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6424.jpg?w=732" style="height:400px">
+
+                                <div class="img-caption">
+                                        <h4 class="img-caption">
+                                </div>
+                        </div>
+                </div>
+
+                <div class="image-row">
+                        <div class="image-column">
+                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6383.jpg?w=725" style="height:400px">
 
                                 <div class="img-caption">
                                         <h4 class="img-caption"></h4>
@@ -84,7 +160,7 @@
                         </div>
 
                         <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6385.jpg?w=732" style="heig>
+                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6385.jpg?w=732" style="height:400px">
 
                                 <div class="img-caption">
                                         <h4 class="img-caption"></h4>
@@ -92,7 +168,7 @@
                         </div>
 
                         <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6400.jpg?w=699" style="heig>
+                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6400.jpg?w=699" style="height:400px">
 
                                 <div class="img-caption">
                                         <h4 class="img-caption"></h4>
@@ -102,7 +178,7 @@
 
                 <div class="image-row">
                         <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6034-copy.jpg?w=1024" alt=">
+                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6034-copy.jpg?w=1024" style="height:400px">
 
                                 <div class="img-caption">
                                         <h4 class="img-caption">This was ADM's first drawing.</h4>
@@ -110,7 +186,7 @@
                         </div>
 
                         <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6033.jpg?w=714" alt="More s>
+                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6033.jpg?w=714" style="height:400px">
 
                                 <div class="img-caption">
                                         <h4 class="img-caption">This was drawn by Instagram Live viewers by giving a # of s>
@@ -118,7 +194,7 @@
                         </div>
 
                         <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6153-edited.jpg?w=1158&h=15>
+                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6153-edited.jpg?w=1158&h=15" style="height:400px">
 
                                 <div class="img-caption">
                                         <h4 class="img-caption">Did some tests with randomness. This ran for roughly 45 min>
@@ -126,10 +202,10 @@
                         </div>
 
                 </div>
-
+                
                 <div class="image-row">
                         <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6198.jpg?w=768" alt="Scribb>
+                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6198.jpg?w=768" style="height:400px">
 
                                 <div class="img-caption">
                                         <h4 class="img-caption">This was some more testing, with the addition of some color>
@@ -137,7 +213,7 @@
                         </div>
 
                         <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6233.jpg?w=768" alt="More s>
+                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6233.jpg?w=768" style="height:400px">
 
                                 <div class="img-caption">
                                         <h4 class="img-caption">Some more randomness. Added a brush pen this time.</h4>
@@ -145,7 +221,7 @@
                         </div>
 
                         <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6298.jpg" alt="We've made c>
+                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6298.jpg" style="height:400px">
 
                                 <div class="img-caption">
                                         <h4 class="img-caption">Finally figured out the right code to make a circle! Or in >
@@ -154,7 +230,7 @@
                 </div>
                 <div class="image-row">
                         <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6299.jpg" alt="Many scribbl>
+                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6299.jpg" style="height:400px">
 
                                 <div class="img-caption">
                                         <h4 class="img-caption">Was trying to figure out user interaction. Made a mess.</h4>
