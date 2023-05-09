@@ -1,255 +1,480 @@
 <html>
-        <head>
+
+<head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <style>
-                *{
-                        box-sizing: border-box;
-                        }
+        <link rel="stylesheet" href="style.css">
 
-                body{
-                        background-color:  rgb(208, 224, 227);
-                        margin-top: 50px;
-                        margin-left: 25px;
-                        }
-                h1{
-                        font-family:  "Gill Sans", sans-serif;
-                        font-size: 100px;
-                        text-align: center;
-                        }
-                h2{
-                        font-family:  "Courier New", monospace;
-                        text-align: center;
-                        }
-                h3{
-                        font-family:  "Courier New", monospace;
-                        font-size: 45;
-                        text-align: center;
-                        }
-                h4{
-                        font-family:  "Courier New", monospace;
-                        font-size: 25px;
-                        text-align: center;
-                        }
+        <title>This is ADM!</title>
+</head>
 
-                #header{
-                        margin-bottom: 50px;
-                        }
+<body>
+        <div id="header">
+                <h1>A D M</h1>
 
-                #sub-title{
-                        text-align: left;
-                        font-family:  "Courier New", monospace;
-                        }
-                        .img-caption{
-                        text-align: left;
-                        font-size: 20px;
-                        margin-left: 50px;
-                        word-wrap: break-word;
-                        }
-                p{
-                        font-family:  "Courier New", monospace;
-                        text-align: center;
-                        }
-
-                #footer{
-                        margin-top: 50px;
-                        }
-
-                img{
-                        margin-left: 100px;
-                        transition:transform 0.4s ease;
-                        }
-
-                img:hover{
-                        -webkit-transform:scale(1.5);
-                        transform:scale(1.5);
-                        margin-left: 100px;
-                        }
-
-                .image-column{
-                        flex: 33.33%;
-                        padding: 5px;
-                        }
-
-                .image-row{
-                        display: flex;
-                        margin-top: 50px;
-                        }
-
-                div.img-caption{
-                        width: 400px;
-                        }
-
-                </style>
-                <title>This is ADM!</title>
-        </head>
-        <body>
-                <div id="header">
-                        <h1>A D M</h1>
-                        <h4>pronounced ah - dum</h4>
-                </div>
-                <br>
-
-                <div id="sub-title">
-                        <h3>Some creations from the ITP/IMA Winter Show 2022!!!</h3>
+                <div>
+                        <ul id="navBar">
+                                <li><a href="https://www.who-is-adm.com/">Home</a></li>
+                                <li><a href="https://www.who-is-adm.com/about">About</a></li>
+                                <li><a href="https://www.who-is-adm.com/clock">Clock</a></li>
+                        </ul>
                 </div>
 
-                <br>
-                <br>
-                <br>
-                <br>
+                <h4>pronounced ah - dum</h4>
+                <p>For Tom Igoe's Connected Devices class during the Spring 2023 semester, I created a 
+                <em>Questionable Thesis Clock.</em> To view, click the Clock page above.</p>
+        </div>
 
-                <div class="image-row">
-                        <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6403.jpg?w=667" style="height:400px">
+        <br>
 
-                                <div class="img-caption">
-                                        <h4 class="img-caption"</h4>
-                                </div>
-                        </div>
+        <!-- NEW DRAWINGS SPRING 2023 -->
+        <div id="sub-title">
+                <h4>Most recent drawings from the Spring 2023 semester.</h4>
+        </div>
 
-                        <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6409.jpg?w=735" style="height:400px">
 
-                                <div class="img-caption">
-                                        <h4 class="img-caption">
-                                </div>
-                        </div>
+        <div class="image-row">
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2023/03/img_7330.jpg?w=1654"
+                                style="height:400px">
 
-                        <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6411.jpg?w=743" style="height:400px">
-
-                                <div class="img-caption">
-                                        <h4 class="img-caption">
-                                </div>
-                        </div>
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption">More with Kinect, this time with it mounted 
+                                        to the ceiling to track where a person walks.</h4>
+                        <!-- </div> -->
                 </div>
 
-                <div class="image-row">
-                        <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6420.jpg?w=717" style="height:400px">
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2023/03/img_7246.jpg?w=835"
+                                style="height:400px">
 
-                                <div class="img-caption">
-                                        <h4 class="img-caption">
-                                </div>
-                        </div>
-
-                        <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6422.jpg?w=726" style="height:400px">
-
-                                <div class="img-caption">
-                                        <h4 class="img-caption">
-                                </div>
-                        </div>
-
-                        <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6424.jpg?w=732" style="height:400px">
-
-                                <div class="img-caption">
-                                        <h4 class="img-caption">
-                                </div>
-                        </div>
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption">Testing motion tracking using Kinect and OpenFrameworks.</h4>
+                        <!-- </div> -->
                 </div>
 
-                <div class="image-row">
-                        <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6383.jpg?w=725" style="height:400px">
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2023/03/img_7239.jpg?w=824"
+                                style="height:400px">
 
-                                <div class="img-caption">
-                                        <h4 class="img-caption"></h4>
-                                </div>
-                        </div>
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
+                </div>
+        </div>
 
-                        <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6385.jpg?w=732" style="height:400px">
 
-                                <div class="img-caption">
-                                        <h4 class="img-caption"></h4>
-                                </div>
-                        </div>
+        <div class="image-row">
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2023/02/img_7086.jpg?w=1638"
+                                style="height:400px">
 
-                        <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6400.jpg?w=699" style="height:400px">
-
-                                <div class="img-caption">
-                                        <h4 class="img-caption"></h4>
-                                </div>
-                        </div>
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
                 </div>
 
-                <div class="image-row">
-                        <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6034-copy.jpg?w=1024" style="height:400px">
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2023/02/img_7085.jpg?w=1632"
+                                style="height:400px">
 
-                                <div class="img-caption">
-                                        <h4 class="img-caption">This was ADM's first drawing.</h4>
-                                </div>
-                        </div>
-
-                        <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6033.jpg?w=714" style="height:400px">
-
-                                <div class="img-caption">
-                                        <h4 class="img-caption">This was drawn by Instagram Live viewers by giving a # of s>
-                                </div>
-                        </div>
-
-                        <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6153-edited.jpg?w=1158&h=15" style="height:400px">
-
-                                <div class="img-caption">
-                                        <h4 class="img-caption">Did some tests with randomness. This ran for roughly 45 min>
-                                </div>
-                        </div>
-
-                </div>
-                
-                <div class="image-row">
-                        <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6198.jpg?w=768" style="height:400px">
-
-                                <div class="img-caption">
-                                        <h4 class="img-caption">This was some more testing, with the addition of some color>
-                                </div>
-                        </div>
-
-                        <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6233.jpg?w=768" style="height:400px">
-
-                                <div class="img-caption">
-                                        <h4 class="img-caption">Some more randomness. Added a brush pen this time.</h4>
-                                </div>
-                        </div>
-
-                        <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6298.jpg" style="height:400px">
-
-                                <div class="img-caption">
-                                        <h4 class="img-caption">Finally figured out the right code to make a circle! Or in >
-                                </div>
-                        </div>
-                </div>
-                <div class="image-row">
-                        <div class="image-column">
-                                <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6299.jpg" style="height:400px">
-
-                                <div class="img-caption">
-                                        <h4 class="img-caption">Was trying to figure out user interaction. Made a mess.</h4>
-                                </div>
-                        </div>
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
                 </div>
 
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <div id="footer">
-                        <p>&copy; 2022 bianca gan | itp thesis (work in progress)</p>
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2023/03/img_7230.jpg?w=821"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption">Working on following mouse position in p5.</h4>
+                        <!-- </div> -->
                 </div>
-        </body>
+        </div>
+
+
+        <div class="image-row">
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2023/02/img_7065-1.jpg?w=768"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
+                </div>
+
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2023/02/img_7066.jpg?w=768"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
+                </div>
+
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2023/02/img_7067.jpg?w=768"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
+                </div>
+        </div>
+
+        <div class="image-row">
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2023/02/img_7040.jpg?w=806"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
+                </div>
+
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2023/02/img_7063-1.jpg?w=768"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
+                </div>
+
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2023/02/img_7064-1.jpg?w=768"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
+                </div>
+        </div>
+
+        <!-- FROM THE WINTER SHOW 2022 -->
+        <br>
+
+        <div id="sub-title">
+                <h4>Some creations from the ITP/IMA Winter Show 2022!!!</h4>
+        </div>
+
+        <div class="image-row">
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6471.jpg?w=768"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
+                </div>
+
+                <div class="image-column">
+                        <!-- <img src=""
+                                style="height:400px"> -->
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
+                </div>
+
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6472.jpg?w=768"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
+                </div>
+        </div>
+
+
+        <div class="image-row">
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6465.jpg?w=858"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
+                </div>
+
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6470.jpg?w=768"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
+                </div>
+
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6468.jpg?w=850"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
+                </div>
+        </div>
+
+
+        <div class="image-row">
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6464.jpg?w=848"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
+                </div>
+
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6463.jpg?w=855"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
+                </div>
+
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6466.jpg?w=817"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
+                </div>
+        </div>
+
+
+        <div class="image-row">
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6457.jpg?w=849"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
+                </div>
+
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6462.jpg?w=868"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
+                </div>
+
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6459.jpg?w=831"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
+                </div>
+        </div>
+
+
+        <div class="image-row">
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6456.jpg?w=809"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
+                </div>
+
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6455.jpg?w=826"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
+                </div>
+
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6458.jpg?w=803"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
+                </div>
+        </div>
+
+
+        <div class="image-row">
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6403.jpg?w=667"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
+                </div>
+
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6409.jpg?w=735"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
+                </div>
+
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6411.jpg?w=743"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
+                </div>
+        </div>
+
+        <div class="image-row">
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6420.jpg?w=717"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
+                </div>
+
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6422.jpg?w=726"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
+                </div>
+
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6424.jpg?w=732"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
+                </div>
+        </div>
+
+        <div class="image-row">
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6383.jpg?w=725"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
+                </div>
+
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6385.jpg?w=732"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
+                </div>
+
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6400.jpg?w=699"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption"></h4>
+                        <!-- </div> -->
+                </div>
+        </div>
+
+        <div class="image-row">
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6034-copy.jpg?w=1024"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption">This was ADM's first drawing.</h4>
+                        <!-- </div> -->
+                </div>
+
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6033.jpg?w=714"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption">This was drawn by Instagram Live viewers by giving a # of s</h4>
+                        <!-- </div> -->
+                </div>
+
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6153-edited.jpg?w=1158&h=15"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption">Did some tests with randomness. This ran for roughly 45 min</h4>
+                        <!-- </div> -->
+                </div>
+
+        </div>
+
+        <div class="image-row">
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6198.jpg?w=768"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption">This was some more testing, with the addition of some color</h4>
+                        <!-- </div> -->
+                </div>
+
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6233.jpg?w=768"
+                                style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption">Some more randomness. Added a brush pen this time.</h4>
+                        <!-- </div> -->
+                </div>
+
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6298.jpg" style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption">Finally figured out the right code to make a circle! Or in</h4>
+                        <!-- </div> -->
+                </div>
+        </div>
+        <div class="image-row">
+                <div class="image-column">
+                        <img src="https://bgan328789767.files.wordpress.com/2022/12/img_6299.jpg" style="height:400px">
+
+                        <!-- <div class="img-caption"> -->
+                                <h4 class="caption">Was trying to figure out user interaction. Made a mess.</h4>
+                        <!-- </div> -->
+                </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="footer">
+                <p>&copy; 2023 bianca gan | itp thesis (work in progress)</p>
+        </div>
+</body>
+
 </html>
