@@ -36,24 +36,26 @@ p{
   text-align: center;
   }
 
+
 #header{
   margin-bottom: 5px;
   }
 
+/* -------------------- NAVIGATION BAR -------------------- */
 ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    overflow: hidden;
-    background-color: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  background-color: none;
 }
 
 
 li{
-    display: inline;
-    font-family:  "Courier New", monospace;
-    font-size: 20px;
+  display: inline;
+  font-family:  "Courier New", monospace;
+  font-size: 20px;
 }
 
 li a{
@@ -65,8 +67,9 @@ li a{
 }
 
 li a:hover{
-    background-color: white;
-}
+  background-color: white;
+}    
+/* ------------------------------------------------------- */
 
 #about{
   width: 400px;
